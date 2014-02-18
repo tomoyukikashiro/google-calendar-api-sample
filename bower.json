@@ -1,0 +1,10 @@
+{
+  "name": "google-calendar-api-sample",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "underscore": "*",
+    "GlobalJS": "kashiro/GlobalJS"
+  },
+  "devDependencies": {}
+}
