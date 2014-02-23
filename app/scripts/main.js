@@ -108,7 +108,7 @@
                 yyyy = $target.data('event-date'),
                 date = yyyy + '-02-14',
                 param = {
-                    summary: $target.find('p').text(),
+                    summary: $target.find('button').text(),
                     end  : {
                         date: date
                     },
@@ -126,8 +126,10 @@
                 window.alert('please select your calendar.');
             }
         },
-        onInsertEnd: function() {
-            window.alert('inserted event.');
+        onInsertEnd: function(res) {
+            if(window.confirm('create event !! \nDo you open the event ? ')){
+                window.open(res.htmlLink);
+            }
         }
     };
 
