@@ -18,6 +18,8 @@ https://code.google.com/p/google-api-javascript-client/
 5. click `Credential` menu in left column.
 6. copy `client ID` in `Client ID for web application` section.
 
+![create app](http://kashiro.github.io/google-calendar-api-sample/images/create-app.png)
+
 ### Create HTML
 
 load Javascript client.
