@@ -23,7 +23,7 @@ https://code.google.com/p/google-api-javascript-client/
 ### Create HTML
 
 load Javascript client.
-`onload` parameter is set a callback method name which will be called when client is initialized.
+`onload` parameter is to set a callback method name which will be called when client is initialized.
 
 	<script src="https://apis.google.com/js/client.js?onload=onLoadGapiClient"></script>
 	
