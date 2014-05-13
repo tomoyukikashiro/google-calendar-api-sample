@@ -56,4 +56,4 @@ You can check about client [method](https://developers.google.com/google-apps/ca
     
 ## My Sample Code
 
-[here!](https://github.com/kashiro/google-calendar-api-sample) :)
+[here!](https://kashiro.github.io/google-calendar-api-sample) :)
